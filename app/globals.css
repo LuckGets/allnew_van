@@ -64,6 +64,9 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground min-h-screen h-[2000px];
+  }
+  .home__des-box {
+    @apply bg-[#f7f7f7] w-[95%];
   }
 }

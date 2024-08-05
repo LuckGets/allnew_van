@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Logo() {
   return (
-    <div className="flex">
+    <div className="md:w-[80px] md:h-[80px] w-[144px] h-[144px] relative">
       <Link href="/">
-        <Image height={100} width={50} alt="logo" src="/images/mixue.png" />
+        <Image fill alt="logo" src="/images/mixue.png" />
       </Link>
     </div>
   );

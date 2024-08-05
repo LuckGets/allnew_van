@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Nav() {
   return (
-    <div className="flex justify-between items-center gap-10">
+    <div className=" justify-between items-center gap-10 md:flex hidden">
       <Link href="/">Home</Link>
       <Link href="/">Recommended place</Link>
       <Link href="/">VIP van service</Link>

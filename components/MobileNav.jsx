@@ -5,6 +5,7 @@ import { HamburgerMenuIcon } from "@/icons/Icon";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { navbarLink } from "@/constants";
+import Contact from "./Contact";
 
 export default function MobileNav() {
   const path = usePathname();
@@ -20,6 +21,7 @@ export default function MobileNav() {
         {navbarLink.map((item) => (
           <Link href={item.href}>{item.name}</Link>
         ))}
+        <Contact />
       </SheetContent>
     </Sheet>
   );
