@@ -1,6 +1,7 @@
 export const enResources = {"app_title": "all new van team",
   "active_locale" : "English",
-  "description" : "VIP van service for airport transfers and out-of-town trips, available for daily rentals. Ideal for sightseeing around Bangkok and other provinces throughout Thailand. Our professional drivers are experienced, familiar with the routes, and knowledgeable about interesting tourist spots, all at fair prices. We accept advance bookings and are ready for urgent requests within 45 minutes. We offer comprehensive van rental services, including airport transfers, van hire with driver, and other services, available 24 hours a day."}
+  "description" : "VIP van service for airport transfers and out-of-town trips, available for daily rentals. Ideal for sightseeing around Bangkok and other provinces throughout Thailand. Our professional drivers are experienced, familiar with the routes, and knowledgeable about interesting tourist spots, all at fair prices. We accept advance bookings and are ready for urgent requests within 45 minutes. We offer comprehensive van rental services, including airport transfers, van hire with driver, and other services, available 24 hours a day.",
+recommendPlace : ["ayutthaya"]}
 
   export const thResources = {  "app_title": "all new van team",
     "active_locale": "Thai",

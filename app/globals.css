@@ -67,6 +67,14 @@
     @apply bg-background text-foreground min-h-screen h-[2000px];
   }
   .home__des-box {
-    @apply bg-[#f7f7f7] w-[95%];
+    @apply bg-[#f7f7f7] w-full py-5 px-4;
+  }
+
+  h1 {
+    @apply text-3xl font-bold
+  }
+
+  .home__des-box_contact-box {
+    @apply bg-white w-full shadow-lg p-10 flex flex-col gap-5
   }
 }

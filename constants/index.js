@@ -18,3 +18,9 @@ export const heroImage = [
   "/images/places/railway-market.jpg",
   "/images/places/pattaya.jpg",
 ];
+
+export const contactLink = [
+  {display: "phone", resource: "tel:+66658734555"},
+  {display: "ADD LINE WITH US", resource: "https://line.me/ti/p/yL6tNuFNhY"},
+  {display: "Whatapps", resource: "https://wa.me/66886169328"},
+]

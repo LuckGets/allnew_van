@@ -28,10 +28,9 @@ export default function Header() {
         isFullPage
           ? "bg-blue-300 sticky top-0 shadow-lg"
           : "bg-transparent py-6"
-      }  sticky top-0 z-40 gap-10 pt-2 md:p-8 transition-colors duration-200`}
+      }  sticky top-0 z-40 gap-10 pt-2 md:py-8 transition-colors duration-200`}
     >
       <div className="flex justify-between items-center">
-
         {/* Logo */}
         <Logo />
 
@@ -39,13 +38,14 @@ export default function Header() {
         <Nav />
 
         {/* Mobile Navigation bar */}
-        <div className="md:hidden block pr-5">
+        <div className="lg:hidden block pr-5">
           <MobileNav />
         </div>
 
         {/* Langauge switcher */}
-        <LanguageSwitcher/>
-
+        <div className="lg:block hidden">
+          <LanguageSwitcher />
+        </div>
       </div>
     </header>
   );
