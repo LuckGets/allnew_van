@@ -6,6 +6,7 @@ import Nav from "./Nav";
 import Contact from "./Contact";
 import MobileNav from "./MobileNav";
 import { useEffect, useState } from "react";
+import LanguageSwitcher from "./LanguageSwitcher";
 export default function Header() {
   const [isFullPage, setIsFullPage] = useState(false);
 
@@ -26,18 +27,25 @@ export default function Header() {
       className={`${
         isFullPage
           ? "bg-blue-300 sticky top-0 shadow-lg"
-          : "bg-transparent absolute w-full py-6"
-      } z-40 gap-10 pt-2 md:p-8 transition-colors duration-200`}
+          : "bg-transparent py-6"
+      }  sticky top-0 z-40 gap-10 pt-2 md:p-8 transition-colors duration-200`}
     >
       <div className="flex justify-between items-center">
+
+        {/* Logo */}
         <Logo />
+
+        {/* ์ Navigation bar */}
         <Nav />
+
+        {/* Mobile Navigation bar */}
         <div className="md:hidden block pr-5">
           <MobileNav />
         </div>
-        <div className="md:block hidden">
-          <Contact />
-        </div>
+
+        {/* Langauge switcher */}
+        <LanguageSwitcher/>
+
       </div>
     </header>
   );
